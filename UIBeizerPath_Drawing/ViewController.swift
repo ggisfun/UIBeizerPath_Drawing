@@ -209,8 +209,8 @@ class ViewController: UIViewController {
         
         //額頭
         let foreheadPath = UIBezierPath()
-        foreheadPath.move(to: CGPoint(x: 190, y: 254))
-        foreheadPath.addQuadCurve(to: CGPoint(x: 205, y: 251), controlPoint: CGPoint(x: 197, y: 248))
+        foreheadPath.move(to: CGPoint(x: 187, y: 254))
+        foreheadPath.addQuadCurve(to: CGPoint(x: 202, y: 251), controlPoint: CGPoint(x: 194, y: 248))
         
         let foreheadLayer = CAShapeLayer()
         foreheadLayer.path = foreheadPath.cgPath
